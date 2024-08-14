@@ -69,7 +69,7 @@ def send_transactions():
             'nonce': nonce + 1,
             'chainId': 97,  
         },
-        # unblock address 
+        # claim airdrop/reward
         {
             'from': address_wallet2,
             'to': token_contract_address,
